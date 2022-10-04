@@ -6,7 +6,8 @@
 
 [mitm]
 
-hostname= user-kaji-api.b612kaji.com,buy.itunes.apple.com,buy.itunes.apple.com, partner-ai-api.quthing.com,api.xiuxiu.meitu.com,subscription-api.notedapp.io,wallpaper.soutushenqi.com,buy.itunes.apple.com,www.xmind.cn,api.xunyou.mobi,m2u-api.getkwai.com,api.meiyan.com info.json,api.revenuecat.com,account.wps.cn,license.pdfexpert.com,api.revenuecat.com,api.revenuecat.com,bmall.camera360.com
+hostname= user-kaji-api.b612kaji.com,buy.itunes.apple.com, partner-ai-api.quthing.com,api.xiuxiu.meitu.com,subscription-api.notedapp.io,wallpaper.soutushenqi.com,buy.itunes.apple.com,www.xmind.cn,api.xunyou.mobi,m2u-api.getkwai.com,api.meiyan.com info.json,api.revenuecat.com,account.wps.cn,license.pdfexpert.com,api.revenuecat.com,api.revenuecat.com,bmall.camera360.com
+,api.revenuecat.com,notability.com, api.sortedapp.com,pay.wecut.com,baimiao.uzero.cn,
 
 
 
@@ -293,3 +294,126 @@ TG频道群：https://t.me/py996
 *******************************/
 
 https?:\/\/bmall\.camera360\.com\/api\/mix\/recovery url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/MIX.js
+
+
+
+
+/******************************
+脚本功能：Planny • 智能待办+解锁订阅
+下载地址：https://is.gd/pYBe5t
+软件版本：7.1.5
+脚本作者：彭于晏
+更新时间：2022-9-24
+问题反馈：QQ+89996462
+QQ会员群：779392027
+TG反馈群：https://t.me/plus8889
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+*******************************/
+
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Planny.js
+
+/******************************
+脚本功能：Notability +解锁订阅
+下载地址：http://mtw.so/6bQodv
+软件版本：11.6.2
+脚本作者：彭于晏💞
+更新时间：2022-9-29
+问题反馈：QQ+89996462
+QQ会员群：779392027💞
+TG反馈群：https://t.me/plus8889
+TG频道群：https://t.me/py996
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+*******************************/
+
+
+^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Notability.js
+
+/******************************
+脚本功能：Grow - 你的健康+恢复订阅
+下载地址：http://u6v.cn/5IrhMX
+软件版本：1.7.1
+脚本作者：彭于晏💞
+更新时间：2022-9-29
+问题反馈：QQ+89996462
+QQ会员群：779392027💞
+TG反馈群：https://t.me/plus8889
+TG频道群：https://t.me/py996
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+*******************************/
+
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers.+ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Grow.js
+
+/******************************
+脚本功能：Scanner Pro+解锁订阅
+下载地址：http://mtw.so/6bRcSt
+软件版本：8.10
+脚本作者：彭于晏
+更新时间：2022-9-11
+问题反馈：QQ+89996462
+QQ会员群：779392027
+TG反馈群：https://t.me/plus8889
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+*******************************/
+
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Scanner.js
+
+
+/******************************
+脚本功能：Sorteds - 日历+解锁订阅
+下载地址：http://mtw.so/6c4TCf
+软件版本：3.9.1
+脚本作者：彭于晏
+更新时间：2022-9-21
+问题反馈：QQ+89996462
+QQ会员群：779392027
+TG反馈群：https://t.me/plus8889
+TG频道群：https://t.me/py
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+*******************************/
+
+^https:\/\/api\.sortedapp\.com\/receipts\/verify url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Sorted.js
+
+/******************************
+脚本功能：MolyCam+解锁PRO
+下载地址：https://is.gd/LomGzV
+软件版本：1.5.1
+脚本作者：彭于晏💞
+更新时间：2022-9-29
+问题反馈：QQ+89996462
+QQ会员群：779392027💞
+TG反馈群：https://t.me/plus8889
+TG频道群：https://t.me/py996
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+*******************************/
+
+^https:\/\/pay\.wecut\.com\/apple\/iosVerifyReceipt\.php$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/MolyCam.js
+
+/******************************
+脚本功能：白描-OCR 文字识别+解锁黄金会员
+下载地址：https://is.gd/qInUpQ
+软件版本：3.3.7
+脚本作者：彭于晏💞
+更新时间：2022-9-29
+问题反馈：QQ+89996462
+QQ会员群：779392027💞
+TG反馈群：https://t.me/plus8889
+TG频道群：https://t.me/py
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+*******************************/
+
+^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/baimiao.js
+ 
+/******************************
+脚本功能：APTV+解锁订阅
+下载地址：https://is.gd/inlPLD
+软件版本：1.0.10
+脚本作者：彭于晏💞
+更新时间：2022-10-02
+问题反馈：QQ+89996462
+QQ会员群：779392027💞
+TG反馈群：https://t.me/plus8889
+TG频道群：https://t.me/py996
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+*******************************/
+
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/aptv.js
